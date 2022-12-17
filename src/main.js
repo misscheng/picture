@@ -8,7 +8,7 @@ import Promise from 'promise-polyfill'
 //引入axios  by zhengkai.blog.csdn.net
 import axios from 'axios'
 Vue.prototype.$axios = axios
-axios.defaults.baseURL = '/api'  //自动附加在所有axios请求前面，则可以省略/api，直接写'/xxxx/xxx'。否则需要设置'/api/xxxx/xxx'
+axios.defaults.baseURL = 'https://imgapi.cn/'  //自动附加在所有axios请求前面，则可以省略/api，直接写'/xxxx/xxx'。否则需要设置'/api/xxxx/xxx'
 
 
 // To add to window
